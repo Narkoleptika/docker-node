@@ -11,6 +11,5 @@ RUN mkdir -p /usr/src/app
 VOLUME /usr/src/app
 VOLUME /usr/src/app/node_modules
 WORKDIR /usr/src/app
-RUN npm install -g yarn
 
 ENTRYPOINT ["entrypoint"]
